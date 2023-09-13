@@ -88,7 +88,7 @@ export function App() {
                   <SelectItem value='title'>Título do Youtube</SelectItem>
                   <SelectItem value='description'>Descrição do Youtube</SelectItem>
                 </SelectContent>
-              </Select>
+              </Select> 
             </div>
 
             <div className='space-y-2'>
