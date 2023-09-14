@@ -28,3 +28,16 @@ Content-Type: application/json
 {
     "prompt": "pedaços"
 }
+
+
+###
+
+# @name generation-ai-completion
+POST http://localhost:3333/ai/complete
+Content-Type: application/json
+
+{
+    "videoId": "7950f6a9-f7b9-40b8-90fb-11fdad683010",
+    "temperature": 0.5,
+    "template": "Gere um resumo sucinto da transcrição do vídeo informada a seguir: '''{transcription}'''"
+}
